@@ -1,0 +1,7 @@
+.venv/
+.venv
+/.venv/
+
+*.py[cod]
+
+bfg-1.14.0.jar
