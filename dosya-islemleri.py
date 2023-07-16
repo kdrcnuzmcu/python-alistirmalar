@@ -3,7 +3,7 @@ from re import findall
 file_path = "text files/What is Data Science.txt"
 
 
-def kelime_say(path, word):
+def word_count(path, word):
     """
     This function counts a word in a text.
     Parameters
@@ -16,4 +16,4 @@ def kelime_say(path, word):
         print(len(findall(word, content)))
 
 
-kelime_say(file_path, "are")
+word_count(file_path, "are")
